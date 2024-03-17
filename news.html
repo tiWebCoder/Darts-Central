@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>News</title>
+        <link rel="stylesheet" href="dartsStyle.css">
+        <link rel="shortcut icon" href="Images/logo.png">
+        <script src="dartsScript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <!--Header-->
+        <header>
+            <div class="container">
+                <a href="index.html"><img src="Images/logo.png" alt="logo" id="logo"></a>
+
+                <!--Menu-->
+                <div class="container" id="menu-container">
+                    <div class="container-controls">
+                        <a class="fa fa-bars controls" onclick="openMenu()" id="menu-icon"></a>
+                    </div>
+
+                    <nav id="menu">
+                        <div class="container-controls">
+                            <a class="fa fa-times controls" onclick="closeMenu()" id="close-icon"></a>
+                        </div>
+
+                        <a href="index.html">home</a>
+                        <a href="rules.html">rules</a>
+                        <a href="players.html">players</a>
+                        <a href="news.html">news</a>
+                        <a href="chatroom.html">chatroom</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--Main Content Container-->
+        <main>
+
+            <!--Banner-->
+            <div id="banner">
+                <h1 class="banner-title">news</h1>
+            </div>
+            
+            <div class="container" id="news-content-container">
+                
+                <!--PDC World Championship-->
+                <div class="container">
+                    <h2 class="title">PDC World Championship</h2>
+
+                    <section class="container-content" id="pdc-worlds-section">
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/PDC-World-Championship/behind-closed-doors.jpeg" alt="behind-closed-doors" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">behind closed doors</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/PDC-World-Championship/wright-begins-defence.jpeg" alt="wright-begins-defence" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">wright begins defence</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/PDC-World-Championship/wright-reign-ends.jpeg" alt="wright-reign-ends" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">wright&apos;s reign ends</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/PDC-World-Championship/wade-nine-darter.jpeg" alt="wade-nine-darter" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">wade&apos;s nine darter</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/PDC-World-Championship/chisnall-vs-van-gerwen.jpeg" alt="chisnall-vs-van-gerwen" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">gerwen mighty whitewash</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/PDC-World-Championship/price-vs-anderson.jpeg" alt="price-vs-anderson" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">finals: price vs anderson</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/PDC-World-Championship/gerwyn-price-world-champion.jpeg" alt="gerwyn-price-world-champion" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">price captures worlds</h3>
+                            </div>
+                        </a>
+                    </section>
+                </div>
+
+                <!--Premier League-->
+                <div class="container">
+                    <h2 class="title">Premier League</h2>
+
+                    <div class="container-content" id="premier-league-section">
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Premier-League/cross-judgement-night.jpeg" alt="cross-judgement-night" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">judgement passed on cross</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Premier-League/wright-thrashes-van-gerwen.jpeg" alt="wright-thrashes-van-gerwen" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">wright thrashes gerwen</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Premier-League/playoff-hopes-alive.jpeg" alt="playoff-hopes-alive" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">playoff hopes alive</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Premier-League/van-gerwen-playoff-fail.jpeg" alt="van-gerwen-playoff-fail" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">mighty fail to playoffs</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Premier-League/playoff-finalists.jpeg" alt="playoff-finalists" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">playoff finalists confirmed</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Premier-League/durrant-wins-league.jpeg" alt="durrant-wins-league" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">durrant league champion</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Premier-League/premier-league-lineup.jpeg" alt="premier-league-lineup" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">premier league participants</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--World Matchplay-->
+                <div class="container">
+                    <h2 class="title">world matchplay</h2>
+
+                    <div class="container-content" id="world-matchplay-section">
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Matchplay/matchplay-closed-doors.jpeg" alt="matchplay-closed-doors" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">matchplay closed doors</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Matchplay/gerwen-eliminated.jpeg" alt="gerwen-eliminated" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">van gerwen eliminated</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Matchplay/wright-eliminated.jpeg" alt="wright-eliminated" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">peter wright eliminated</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Matchplay/betfred-on-course-donation.jpeg" alt="betfred-on-course-donation" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">betfred oncourse donation</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Matchplay/betfred-donation.jpeg" alt="betfred-donation" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">betfred to make donation</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Matchplay/bergh-vs-anderson.jpeg" alt="bergh-vs-anderson" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">finals: bergh vs anderson</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Matchplay/bergh-wins-matchplay.jpeg" alt="bergh-wins-matchplay" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">van den bergh champion</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--World Grandprix-->
+                <div class="container">
+                    <h2 class="title">world grandprix</h2>
+
+                    <div class="container-content" id="world-grandprix-section">
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Grandprix/gerwen-survives-thriller.jpeg" alt="gerwen-survives-thriller" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">gerwen opening thriller</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Grandprix/wright-aspinall-exit.jpeg" alt="wright-aspinall-exit" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">wright &amp; aspinall eliminated</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Grandprix/gerwen-anderson-quarter-finals.jpeg" alt="gerwen-anderson-quarter-finals" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">gerwen &amp; anderson advance</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Grandprix/cullen-chisnall-survive.jpeg" alt="cullen-chisnall-survive" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">cullen, chisnall thrillers</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Grandprix/gerwen-reign-ends.jpeg" alt="gerwen-reign-ends" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">end of mighty reign</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Grandprix/price-vs-duijvenbode.jpeg" alt="price-vs-duijvenbode" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">finals: price vs duijvenbode</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/World-Grandprix/price-wins-grandprix.jpeg" alt="price-wins-grandprix" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">price captures grandprix</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Grand Slam Of Darts-->
+                <div class="container">
+                    <h2 class="title">grand slam of darts</h2>
+
+                    <div class="container-content" id="grandslam-darts-section">
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Grand-Slam-Of-Darts/price-avoids-scare.jpeg" alt="price-avoids-scare" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">price survives scare</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Grand-Slam-Of-Darts/price-avoids-upset.jpeg" alt="price-avoids-scare" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">champion avoids upset</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Grand-Slam-Of-Darts/anderson-vs-gerwen.jpeg" alt="anderson-vs-gerwen" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">last 16 anderson gerwen</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Grand-Slam-Of-Darts/price-reign-ends.jpeg" alt="price-reign-ends" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">price&apos;s reign ends</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Grand-Slam-Of-Darts/van-gerwen-exit.jpeg" alt="van-gerwen-exit" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">whitlock ousts gerwen</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Grand-Slam-Of-Darts/wade-vs-sousa.jpeg" alt="wade-vs-sousa" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">finals: wade sousa</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/Grand-Slam-Of-Darts/sousa-wins-slam.jpeg" alt="sousa-wins-slam" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">de sousa crowned champion</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--UK Open-->
+                <div class="container">
+                    <h2 class="title">uk open</h2>
+
+                    <div class="container-content" id="uk-open-section">
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/UK-Open/uk-open-draws.jpeg" alt="uk-open-draws" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">draws &amp; schedule announced</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/UK-Open/sherrock-qualifies.jpeg" alt="sherrock-qualifies" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">sherrock has qualified</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/UK-Open/hopp-withdraws.jpeg" alt="hopp-withdraws" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">withdrawal from competition</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/UK-Open/ashton-sherrock-make-history.jpeg" alt="ashton-sherrock-make-history" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">history making moment</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/UK-Open/clayton-9-darter.jpeg" alt="clayton-9-darter" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">9 darter glory</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/UK-Open/gerwen-9-darter-glory.jpeg" alt="gerwen-9-darter-glory" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">gerwen 9 darter</h3>
+                            </div>
+                        </a>
+
+                        <a class="card card-news" onclick="maintenanceAlert()">
+                            <img src="Images/news/UK-Open/gerwen-wins-uk-open.jpeg" alt="gerwen-wins-uk-open" class="card-image">
+                            <div class="card-body">
+                                <h3 class="card-title">crowned x3 champion</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <button class="controls" id="disclaimer-link" onclick="viewDisclaimer()">Disclaimer</button>
+                <span>&copy; Darts Central 2023</span>
+                <div class="container-controls" id="social-media">
+                    <a class="controls fa fa-facebook-square" href="https://www.facebook.com/OfficialPDC" target="_blank"></a>
+                    <a class="controls fa fa-instagram" href="https://www.instagram.com/officialpdc/" target="_blank"></a>
+                    <a class="controls fa fa-youtube-play" href="https://www.youtube.com/officialpdc" target="_blank"></a>
+                    <a class="controls fa fa-twitter" href="https://twitter.com/OfficialPDC" target="_blank"></a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

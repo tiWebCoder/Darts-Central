@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chatroom</title>
+        <link rel="stylesheet" href="dartsStyle.css">
+        <link rel="shortcut icon" href="Images/logo.png">
+        <script src="dartsScript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <!--Header-->
+        <header>
+            <div class="container">
+                <a href="index.html"><img src="Images/logo.png" alt="logo" id="logo"></a>
+
+                <!--Menu-->
+                <div class="container" id="menu-container">
+                    <div class="container-controls">
+                        <a class="fa fa-bars controls" onclick="openMenu()" id="menu-icon"></a>
+                    </div>
+
+                    <nav id="menu">
+                        <div class="container-controls">
+                            <a class="fa fa-times controls" onclick="closeMenu()" id="close-icon"></a>
+                        </div>
+
+                        <a href="index.html">home</a>
+                        <a href="rules.html">rules</a>
+                        <a href="players.html">players</a>
+                        <a href="news.html">news</a>
+                        <a href="chatroom.html">chatroom</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--Main Content Container-->
+        <main>
+
+            <!--Banner-->
+            <div id="banner">
+                <h1 class="banner-title">chatroom</h1>
+            </div>
+            
+            <div class="container" id="chatroom-content-container">
+                <div class="container">
+                    <div class="container-content" id="chatroom-content">
+
+                        <!--Input Message Field and Post Button-->
+                        <form class="container-controls" id="chatroom-controls">
+                            <input class="controls" id="input-message-field" placeholder="Enter your message...">
+                            <button class="controls" id="post-message-button" type="button" onclick="maintenanceAlert()">post</button>
+                        </form>
+
+                        <!--Message Board-->
+                        <textarea id="message-board"></textarea>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <button class="controls" id="disclaimer-link" onclick="viewDisclaimer()">Disclaimer</button>
+                <span>&copy; Darts Central 2023</span>
+                <div class="container-controls" id="social-media">
+                    <a class="controls fa fa-facebook-square" href="https://www.facebook.com/OfficialPDC" target="_blank"></a>
+                    <a class="controls fa fa-instagram" href="https://www.instagram.com/officialpdc/" target="_blank"></a>
+                    <a class="controls fa fa-youtube-play" href="https://www.youtube.com/officialpdc" target="_blank"></a>
+                    <a class="controls fa fa-twitter" href="https://twitter.com/OfficialPDC" target="_blank"></a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
