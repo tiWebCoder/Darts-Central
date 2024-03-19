@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Players</title>
+        <link rel="stylesheet" href="dartsStyle.css">
+        <link rel="shortcut icon" href="Images/logo.png">
+        <script src="dartsScript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <!--Header-->
+        <header>
+            <div class="container">
+                <a href="index.html"><img src="Images/logo.png" alt="logo" id="logo"></a>
+
+                <!--Menu-->
+                <div class="container" id="menu-container">
+                    <div class="container-controls">
+                        <a class="fa fa-bars controls" onclick="openMenu()" id="menu-icon"></a>
+                    </div>
+
+                    <nav id="menu">
+                        <div class="container-controls">
+                            <a class="fa fa-times controls" onclick="closeMenu()" id="close-icon"></a>
+                        </div>
+
+                        <a href="index.html">home</a>
+                        <a href="rules.html">rules</a>
+                        <a href="players.html">players</a>
+                        <a href="news.html">news</a>
+                        <a href="chatroom.html">chatroom</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--Main Content Container-->
+        <main>
+
+            <!--Banner-->
+            <div id="banner">
+                <h1 class="banner-title">players</h1>
+            </div>
+            
+            <div class="container" id="players-content-container">
+                <section class="container-content">
+                    <div class="card card-players" id="card-phil-taylor">
+                        <div class="card-body">
+                            <h3 class="card-title">phil taylor</h3>
+                            <ul class="card-stats">
+                                <li>nickname: the power</li>
+                                <li>PDC world championship: 14</li>
+                                <li>BDO world championship: 2</li>
+                                <li>premier league: 6</li>
+                                <li>world matchplay: 16</li>
+                                <li>world masters: 1</li>
+                                <li>world grandprix: 11</li>
+                                <li>UK open: 5</li>
+                                <li>grand slam of darts: 6</li>
+                                <li>PDC world cup of darts: 4</li>
+                                <li>european championship: 4</li>
+                                <li>the masters: 1</li>
+                                <li>champions league of darts: 1</li>
+                                <li>players championship finals: 3</li>
+                                <li>WDF europe cup singles: 2</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card card-players" id="card-van-barneveld">
+                        <div class="card-body">
+                            <h3 class="card-title">raymond van barneveld</h3>
+                            <ul class="card-stats">
+                                <li>nickname: barney</li>
+                                <li>PDC world championship: 1</li>
+                                <li>BDO world championship: 4</li>
+                                <li>premier league: 1</li>
+                                <li>world masters: 2</li>
+                                <li>UK open: 2</li>
+                                <li>grand slam of darts: 1</li>
+                                <li>PDC world cup of darts: 4</li>
+                                <li>WDF europe cup singles: 1</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card card-players" id="card-van-gerwen">
+                        <div class="card-body">
+                            <h3 class="card-title">micheal van gerwen</h3>
+                            <ul class="card-stats">
+                                <li>nickname: mighty mike</li>
+                                <li>PDC world championship: 3</li>
+                                <li>grand slam of darts: 3</li>
+                                <li>premier league: 5</li>
+                                <li>world matchplay: 2</li>
+                                <li>world grandprix: 5</li>
+                                <li>UK open: 3</li>
+                                <li>the masters: 5</li>
+                                <li>european championship: 4</li>
+                                <li>champions league of darts: 1</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card card-players" id="card-peter-wright">
+                        <div class="card-body">
+                            <h3 class="card-title">peter wright</h3>
+                            <ul class="card-stats">
+                                <li>nickname: snakebite</li>
+                                <li>PDC world championship: 1</li>
+                                <li>UK open: 1</li>
+                                <li>the masters: 1</li>
+                                <li>PDC world cup of darts: 1</li>
+                                <li>european championship: 1</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card card-players" id="card-gary-anderson">
+                        <div class="card-body">
+                            <h3 class="card-title">gary anderson</h3>
+                            <ul class="card-stats">
+                                <li>nickname: the flying scotsman</li>
+                                <li>PDC world championship: 2</li>
+                                <li>premier league: 2</li>
+                                <li>world matchplay: 1</li>
+                                <li>UK open: 1</li>
+                                <li>PDC world cup of darts: 1</li>
+                                <li>champions league of darts: 1</li>
+                                <li>players championship finals: 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <button class="controls" id="disclaimer-link" onclick="viewDisclaimer()">Disclaimer</button>
+                <span>&copy; Darts Central 2023</span>
+                <div class="container-controls" id="social-media">
+                    <a class="controls fa fa-facebook-square" href="https://www.facebook.com/OfficialPDC" target="_blank"></a>
+                    <a class="controls fa fa-instagram" href="https://www.instagram.com/officialpdc/" target="_blank"></a>
+                    <a class="controls fa fa-youtube-play" href="https://www.youtube.com/officialpdc" target="_blank"></a>
+                    <a class="controls fa fa-twitter" href="https://twitter.com/OfficialPDC" target="_blank"></a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
