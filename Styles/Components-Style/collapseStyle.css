@@ -1,0 +1,19 @@
+.collapse{
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #bdbdbd;
+}
+
+    .collapse-body{
+        border-radius: inherit;
+        padding: 10px 10px;
+    }
+
+        .collapse-image{
+            max-width: 100%;
+            max-height: 250px;
+            width: 100%;
+            height: 250px;
+            border-radius: inherit;
+        }

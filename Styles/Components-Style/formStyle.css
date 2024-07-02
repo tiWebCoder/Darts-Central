@@ -1,0 +1,28 @@
+form{
+    flex-direction: column;
+}
+
+    form *{
+        margin: 5px 0px;
+    }
+
+    input, #message-board{
+        border: none;
+        border-radius: 10px;
+        padding: 5px 5px;
+    }
+
+    #submit-button{
+        width: 20%;
+        background-color: transparent;
+    }
+
+    #message-board{
+        height: 150px;
+        overflow-y: auto;
+    }
+
+        #message-board::before{
+            content: "Posted Messages Will Show Here";
+            color: #111111;
+        }
